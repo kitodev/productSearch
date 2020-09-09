@@ -6,7 +6,6 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
 const webdriver = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
-const firefox = require('selenium-webdriver/firefox');
 
 (async function example() {
   let driver = await new Builder().forBrowser('firefox').build();
